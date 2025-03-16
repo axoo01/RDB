@@ -5,9 +5,9 @@ This is a clone of the RDB (Rwanda Development Board) website, built for learnin
 The goal was to replicate the original website's design and structure using HTML, CSS, and JavaScript.
 
 ## 🛠 Technologies Used
--HTML
--CSS
--JavaScript 
+- HTML
+- CSS
+- JavaScript 
 
 ## 📌 Disclaimer
 This project is purely for educational purposes and is not affiliated with the official RDB website.
