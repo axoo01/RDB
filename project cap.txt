@@ -1,0 +1,16 @@
+🚀 Proud to share my first personal project in my web development learning journey! 🚀
+
+In my quest to learn website development, I took on the challenge of creating a clone of the Rwanda Development Board (RDB) website's homepage. This project was more than just coding for me; it was about understanding the essence of what makes a great website and bringing that to life line by line.
+
+Recognizing the importance of both aesthetics and functionality in web design, I have a few suggestions that might further enhance the RDB website:
+
+- **Interactive Map**: An interactive map of Rwanda showing key development projects, tourist attractions, and business hubs. Users can click on different regions to get more information.
+-**Live Chat Support**: Implement a live chat feature where visitors can get instant support or answers to their queries about investment opportunities, tourism, etc.
+-**Upcoming Events Calendar**: A calendar showcasing upcoming events, seminars, and workshops related to business and development in Rwanda.
+- **Newsletter Signup **: Add a section where visitors can sign up for a newsletter to stay updated on the latest news and developments.
+
+
+Working on this project has been an enriching experience. I believe in continuous improvement  and always open to new learning opportunities.
+
+Check out the screenshots below!
+
