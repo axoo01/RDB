@@ -10,7 +10,7 @@ if (localStorage.getItem("visitCount")) {
 }
 setTimeout(function () {
     document.querySelector(".header").style.display = "none";
-}, 10000);
+}, 5000);
 
 // sticky main nav bar
 
