@@ -221,6 +221,7 @@ body {
 .iframe-container {
     flex: 1;
     min-width: 300px;
+    min-height: 300px;
 }
 
 .iframe-container iframe {
@@ -812,6 +813,12 @@ address {
     
     .content-section {
         flex-direction: column;
+    }
+    .iframe-container iframe{
+        height: 300px;
+    }
+    .news-container{
+        width: 100%;
     }
     
     .profile-sidebar {
