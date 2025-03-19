@@ -1,6 +1,9 @@
 # RDB Website Clone
 ## 📌 About
 This project is a clone of the Rwanda Development Board (RDB) website, created for learning and practice. The goal is to replicate the original website’s design and structure using modern front-end technologies while incorporating additional interactive features to enhance the user experience.
+## Visit the Website
+You can view the live website here: [RDB Clone Website](https://axoo01.github.io/RDB/)
+
 
 ## 🛠 Technologies & Tools Used
 - HTML – for structuring the content
