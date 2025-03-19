@@ -10,22 +10,34 @@ if (localStorage.getItem("visitCount")) {
 }
 setTimeout(function () {
     document.querySelector(".header").style.display = "none";
-}, 5000);
+}, 10000);
 
-// remove count visit time
+// sticky main nav bar
 
-setTimeout(function () {
-    let header = document.querySelector(".header");
-    let opacity = 1;
-    let fadeOut = setInterval(function () {
-        if (opacity <= 0) {
-            clearInterval(fadeOut);
-            header.style.display = "none";
+document.addEventListener('DOMContentLoaded', function() {
+    const topNav = document.querySelector('.top-nav');
+    const mainNav = document.querySelector('.main-nav');
+    let lastScrollTop = 0;
+    
+    window.addEventListener('scroll', function() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const topNavHeight = topNav.offsetHeight;
+        
+        if (scrollTop > lastScrollTop && scrollTop > topNavHeight) {
+            mainNav.style.top = '0';
         }
-        header.style.opacity = opacity;
-        opacity -= 3; 
-    }, 5000); 
-}, 5000);
+        else if (scrollTop < lastScrollTop && scrollTop <= topNavHeight) {
+            mainNav.style.top = topNavHeight + 'px';
+        }
+        
+        lastScrollTop = scrollTop;
+    });
+    
+    const initialScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (initialScrollTop <= topNav.offsetHeight) {
+        mainNav.style.top = topNav.offsetHeight + 'px';
+    }
+});
 
 
 // count followers
@@ -43,7 +55,7 @@ function animateCounter(id, start, end, duration) {
         }
     }, 10);
 }
-animateCounter("followerCount", 0, 5000, 5000);
+animateCounter("followerCount", 0, 5000, 10000);
 
 
 // saving username so it can be displayed next visit

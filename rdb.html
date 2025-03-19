@@ -1,284 +1,338 @@
 <!DOCTYPE html>
-<html>
-<hmtl lang="en-US">
+<html lang="en-US">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>RDB clone</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://use.typekit.net/your-kit-id.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RDB clone</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/your-kit-id.css">
 </head>
 <body>
+    <div class="main">
+        <div class="header">
+            <h1>Welcome to RDB Clone</h1>
+            <p>You've visited this page <span id="visitCount">0</span> times.</p>
+        </div>
+        
+        <!-- Social Media and Navigation Bar -->
+        <div class="top-nav">
+            <ul class="social-icons">
+                <li><a href="https://www.flickr.com/photos/rdbrwanda/"><img src="images/flickr.png" alt="Flickr" title="Flickr"></a></li>
+                <li><a href="https://twitter.com/RDBRwanda"><img src="images/twitter.png" alt="Twitter" title="Twitter"></a></li>
+                <li><a href="https://www.youtube.com/user/RDBRwanda"><img src="images/youtube.jpg" alt="Youtube" title="Youtube"></a></li>
+                <li><a href="https://www.facebook.com/RDBrwanda"><img src="images/facebook.png" alt="Facebook" title="Facebook"></a></li>
+            </ul>
+            <ul class="top-links">
+                <li><a href="https://businessprocedures.rdb.rw/">Business Procedures</a><span class="separator">|</span></li>
+                <li><a href="https://rdb.rw/media">Media</a><span class="separator">|</span></li>
+                <li><a href="https://rdb.rw/careers/">Careers</a><span class="separator">|</span></li>
+                <li><a href="http://www.rcb.rw/" target="_blank">Meet in Rwanda</a><span class="separator">|</span></li>
+                <li><a href="https://rdb.rw/contact-us/">Contact Us</a><span class="separator">|</span></li>
+                <li><a href="https://webmail.rdb.rw/owa/">Webmail</a><span class="separator">|</span></li>
+                <li><a href="https://rdb.smartadmin.gov.rw/login/">Smart Admin</a></li>
+            </ul>
+        </div>
+        
+        <!-- Main Navigation Bar -->
+        <div class="main-nav">
+            <div class="logo">
+                <img src="images/rdb.jpg" alt="RDB Logo">
+            </div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Investment</a></li>
+                    <li><a href="">Tourism</a></li>
+                    <li><a href="">Export</a></li>
+                    <li><a href="">Skills</a></li>
+                    <li><a href="">E-services</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <!-- Hero Banner -->
+        <div class="hero-banner">
+            <div class="hero-content">
+                <h2>INVEST IN RWANDA</h2>
+            </div>
+        </div>
+        
+        <!-- Latest News Section -->
+        <div class="section-title">
+            <h2>Latest News</h2>
+        </div>
+        
+        <!-- Content Section with iframe and profile -->
+        <div class="content-section">
+            <div class="iframe-container">
+                <iframe src="https://rdb.rw/"></iframe>
+            </div>
 
-	<div class="main">
-		<div class="header">
-			<h1>Welcome to Our Clone</h1>
-			<p>You've visited this page <span id="visitCount">0</span> times.</p>
-		</div>
-		<div class="div11">
-			<ul class="ul12">
-				<li><a href="https://www.flickr.com/photos/rdbrwanda/"><img src="images/flickr.png" alt="Flickr" class="img13" title="Flickr"></a></li>
-				<li><a href="https://twitter.com/RDBRwanda"><img src="images/twitter.png" alt="Twitter" class="img13" title="Twitter"></a></li>
-				<li><a href="https://www.youtube.com/user/RDBRwanda"><img src="images/youtube.jpg" alt="Youtube" class="img13" title="Youtube"></a></li>
-				<li><a href="https://www.facebook.com/RDBrwanda"><img src="images/facebook.png" alt="Facebook" class="img13" title="Facebook"></a></li>
-	
-			</ul>
-			<ul class="ul18">
-				<li><a href="https://businessprocedures.rdb.rw/" class="a20">Business Procedures</a>|</li>
-				<li><a href="https://rdb.rw/media" class="a20">Media</a>|</li>
-				<li><a href="https://rdb.rw/careers/" class="a20">Careers</a>|</li>
-				<li><a href="http://www.rcb.rw/" target="_blank" class="a20">Meet in Rwanda</a>|</li>
-				<li><a href="https://rdb.rw/contact-us/" class="a20">Contact Us</a>|</li>
-				<li><a href="https://webmail.rdb.rw/owa/" class="a20">Webmail</a>|</li>
-				<li><a href="https://rdb.smartadmin.gov.rw/login/" class="a20">Smart Admin</a></li>
-			</ul>
-		</div>
-		<!-- headeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr sectionnnnnnnnnnnnnnnnnnnnnnnnn-->
-		<div class="div30">
-			<img src="images/rdb.jpg" alt="RDB Logo" class="img31">
-				<ul class="ul33">
-					<li><a href="" class="a34">Home</a></li>
-					<li><a href="" class="a34">Investment</a></li>
-					<li><a href="" class="a34">ORG</a></li>
-					<li><a href="" class="a34">Export</a></li>
-					<li><a href="" class="a34">Skills</a></li>
-					<li><a href="" class="a34">Tourism</a></li>
-					<li><a href="" class="a34">E-services</a></li>
-					<li><a href="" class="a34">About Us</a></li>
-	
-				</ul>
-		</div>
-		<div class="div46">
-			<div class="div47">
-			<ul class="ul48">
-				<li>INVEST IN RWANDA</li>
-			</ul>
-			</div>	
-		</div>
-		<div class="div53">
-			<h2>Latest News</h2>
-		</div>
-		<div class="secondpart">
-			<div class="content">
-				<div class="iframe-section">
-					<iframe src="https://rdb.rw/"></iframe>
-				</div>
-				<div class="right-section">
-					<div id="profileSection">
-						<h2>Welcome <span id="userName">Guest</span>!</h2><br>
-						<label for="userNameInput"></label>
-						<input type="text" id="userNameInput" placeholder="Enter your name"><br><br>
-						<button id="saveNameButton">Save Name</button>
-					</div>
-					<div class="box">
-						<h2>Latest Activity</h2><br>
-						Followers: <span id="followerCount">0</span><br>
-						<p>Stay connected and watch <br> the numbers grow!</p>
-					</div>
-				</div>
-	
-			</div>
-		</div>
-	
-		<div class="div59">
-			<div class="div60">
-				<h3>Invest</h3>
-			</div>
-			<div class="subdiv">
-				<table>
-					<tr>
-						<td>
-							<img src="images/rwanda.png">
-						</td>
-						<td class="tdheader"> Invest In Rwanda </td>
-					</tr>
-				</table>
-					<ul class="ul69">
-					<li><a href="" class="licolor">Why invest in Rwanda</a></li>
-					<li><a href="" class="licolor">Doing business here</a></li>
-				</ul>
-			</div>
-			<div class="subdiv">
-				<table>
-					<tr>
-						<td>
-							<img src="images/stock.png">
-						</td>
-						<td class="tdheader"> Investment Opportunities </td>
-					</tr>
-				</table>
-				<ul class="ul69">
-					<li><a href="" class="licolor">Manufacturing</a></li>
-					<li><a href="" class="licolor">Agro-Processing</a></li>
-					<li><a href="" class="licolor">Tourism</a></li>
-					<li><a href="" class="licolor">Real estate and construction</a></li>
-					<li><a href="" class="licolor">ICT</a></li>
-					<li><a href="" class="licolor">Financial services</a></li>
-					<li><a href="" class="licolor">Mining</a></li>
-					<li><a href="" class="licolor">Infrastructure</a></li>
-					<li><a href="" class="licolor">Energy</a></li>
-					<li><a href="" class="licolor">Health Services</a></li>
-					<li><a href="" class="licolor">Education</a></li>
-			</div>
-			<div class="subdiv">
-				<table>
-					<tr>
-						<td>
-							<img src="images/hands.png">
-						</td>
-						<td class="tdheader"> Get Started </td>
-					</tr>
-				</table>
-				<ul class="ul69">
-					<li><a href="" class="licolor">Entering Rwanda</a></li>
-					<li><a href="" class="licolor">Starting a business</a></li>
-					<li><a href="" class="licolor">Hiring in Rwanda</a></li>
-					<li><a href="" class="licolor">Paying taxes</a></li>
-					<li><a href="" class="licolor">Visa information</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="div117">
-			<div class="div118">
-				 <h1 class="h118">Take Your Business Global</h1>
-				 <p class="p120">Rwanda Development Board provides trusted market intelligence, practical advice and business tools <br>to help Rwanda companies expand in global markets.</p>
-				 <div class="div127">
-					 <table>
-						 <tr>
-							 <td><img src="images/docs.png" class="img124"></td>
-							 <td class="td125">Export Guides</td>
-						 </tr>
-					 </table>
-				 </div>
-				  <div class="div127">
-					 <table>
-						 <tr>
-							 <td><img src="images/earth.png" class="img124"></td>
-							 <td class="td125">Products directory</td>
-						 </tr>
-					 </table>
-				 </div>
-				  <div class="div127">
-					 <table>
-						 <tr>
-							 <td><img src="images/chat.png" class="img124"></td>
-							 <td class="td125">Services directory</td>
-						 </tr>
-					 </table>
-				 </div>
-				  <div class="div127">
-					 <table>
-						 <tr>
-							 <td><img src="images/calendar.png" class="img124"></td>
-							 <td class="td125">Events</td>
-						 </tr>
-					 </table>
-				 </div>
-			</div>
-		</div>
-		<div class="div155">
-			<div class="div156">
-				 <h4 class="h157">Visit Rwanda</h4>
-			</div>  
-			<div class="div159">
-	
-						<img src="images/gorilla.jpg" class="img162">
-						<h4 class="h162">Volcanoes National Park</h4>
-						<p class="p163">The “Parc National de Volcans” (or PNV as it’s known by locals) lies along the Virunga Mountains, with 8 ancient volcanoes, which are shared by Rwanda, Uganda and the</p>
-						<button class="button164">More Info</button>
-			</div>   
-			<div class="div159">
-						<img src="images/canopy.jpg" class="img162">
-						<h4 class="h162">Nyungwe National Park</h4>
-						<p class="p163">Covering over 1000 square kilomtres, Nyungwe is surely one of the world’s most beautiful and pristine mountain rainforests. It’s believed to be one of Africa’s oldest forests, staying green</p>
-						<button class="button164">More Info</button>
-	
-				
-			</div>
-			<div class="div159">
-						<img src="images/akagera.jpg" class="img162">
-						<h4 class="h162">Akagera National Park</h4>
-						<p class="p163">Akagera National Park is located in the north east of Rwanda along the border with Tanzania. Although founded in 1934, much of the park was re-allocated as farms and in 1997</p>
-						<button class="button164">More Info</button>
-			</div>
-		</div>
-		<div class="divf">
-			<div class="subdivf">
-				<h4 class="h184">Contact Us</h4>
-				<address>
-					Rwanda Development Board<br>
-					<img src="images/address.png" class="imgff">KN 5 Rd, KG 9 Ave<br>
-					<img src="images/tel.png" class="imgf">Tel: 1415<br>
-					<img src="images/tel.png" class="imgf">Tel(international):(+250) 727775170<br>
-					<img src="images/email.png" class="imgf">E-mail:info@rdb.rw<br>
-				</address>
-			</div>
-			<div class="subdivf0">
-				<h4 class="h184">Investment Opportunities</h4>
-				<ul class="ul187">
-					<li><a href="" class="a188">Manufacturing</a></li>
-					<li><a href="" class="a188">Agro-Processing</a></li>
-					<li><a href="" class="a188">Tourism</a></li>
-					<li><a href="" class="a188">Real Estate and construction</a></li>
-					<li><a href="" class="a188">ICT</a></li>
-					<li><a href="" class="a188">Services</a></li>
-					<li><a href="" class="a188">Mining</a></li>
-					<li><a href="" class="a188">Infrastructure</a></li>
-					<li><a href="" class="a188">Energy</a></li>
-					<li><a href="" class="a188">Health Services</a></li>
-					<li><a href="" class="a188">Education</a></li>
-					<li><a href="" class="a188">Global Business Service (GBS)</a></li>
-				</ul>
-			</div>
-			<div class="subdivf1">
-				<h4 class="h184">Important Links</h4>
-				<ul class="ul187">
-					<li><a href="" class="a188">Visit Rwanda</a></li>
-					<li><a href="" class="a188">Visit Nyungwe</a></li>
-					<li><a href="" class="a188">Business Procedures</a></li>
-					<li><a href="" class="a188">Government Portal</a></li>
-					<li><a href="" class="a188">Rwanda Directorate General of immigration and Emigration</a></li>
-					<li><a href="" class="a188">Ministry of trade and industry</a></li>
-					<li><a href="" class="a188">Rwanda Standard Board</a></li>
-					<li><a href="" class="a188">Water and Sanitation Corporation</a></li>
-					<li><a href="" class="a188">Rwanda Energy Group</a></li>
-					<li><a href="" class="a188">Rwanda Convention Bureau</a></li>
-					<li><a href="" class="a188">Rwanda Revenue Authority</a></li>
-					<li><a href="" class="a188">National Agricultural Export Development Board</a></li>
-					<li><a href="" class="a188">Rwandapedia</a></li>
-					<li><a href="" class="a188">RICTA-Be online by registering your .rw domain name</a></li>
-					<li><a href="" class="a188">Kigali International Financial Center</a></li>
-				</ul>
-			</div>
-			<div class="subdivf2">
-				<h4 class="h184">Media Center</h4>
-				<ul class="ul187">
-					<li><a href="" class="a188">News & Press Releases</a></li>
-					<li><a href="" class="a188">Events</a></li>
-					<li><a href="" class="a188">Photo Gallery</a></li>
-					<li><a href="" class="a188">Publications</a></li>
-				</ul>
-				<div class="subdivff">
-					<h4 class="h184">Quick Links</h4>
-					<ul class="ul187">
-						<li><a href="" class="a188">RDB Mail Access</a></li>
-						<li><a href="" class="a188">CRM</a></li>
-						<li><a href="" class="a188">Document Tracking System</a></li>
-						<li><a href="" class="a188">Kurikirana Dossier yawe</a></li>
-						<li><a href="" class="a188">Rw-CSIRT</a></li>
-						<li><a href="" class="a188">Rwanda Public Service Employee Self-Service Portal</a></li>
-						<li><a href="" class="a188">Rwanda Public Service E-Recruitment Portal</a></li>
-						<li><a href="" class="a188">Digital certificate issuance Aplication(PKI)</a></li>
-						<li><a href="" class="a188">NEP M&E System</a></li>
-					</ul>
-					
-				</div>
-			</div>
-			
-		</div>
-	</div>
-	<script src="script.js"></script>
+           <div class="news-container">
+            <div class="news-card">
+                <div class="news-img">
+                    <img src="images/gov.jpg" alt="government">
+                    <span class="news-tag">Politics</span>
+                </div>
+                <div class="news-content">
+                    <h4>New Policy Framework Unveiled</h4>
+                    <p>Government announces comprehensive reforms to address economic challenges.</p>
+                    <div class="news-meta">
+                        <span><i class="news-icon">🕒</i> 4 hours ago</span>
+                        <div class="news-actions">
+                            <button class="action-button" title="Save"><i class="news-icon">🔖</i></button>
+                            <button class="action-button" title="Share"><i class="news-icon">🔗</i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="news-card">
+                <div class="news-img">
+                    <a href="https://www.minecofin.gov.rw/news-detail/rwanda-registers-81-economic-growth-in-third-quarter-of-2024"><img src="/images/market.jpg" alt="Market Chart "></a>
+                    <span class="news-tag">Business</span>
+                </div>
+                <div class="news-content">
+                    <h4>Market Trends Show Economic Recovery</h4>
+                    <p>Analysts report positive indicators across multiple sectors.</p>
+                    <div class="news-meta">
+                        <span><i class="news-icon">🕒</i> 6 hours ago</span>
+                        <div class="news-actions">
+                            <button class="action-button" title="Save"><i class="news-icon">🔖</i></button>
+                            <button class="action-button" title="Share"><i class="news-icon">🔗</i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="load-more-btn">Load More News</button>
+            
+           </div>
 
+            <div class="profile-sidebar">
+                <div id="profileSection">
+                    <h2>Welcome <span id="userName">Guest</span>!</h2>
+                    <label for="userNameInput"></label>
+                    <input type="text" id="userNameInput" placeholder="Who are we welcoming today?">
+                    <button id="saveNameButton">Save Name</button>
+                </div>
+                <div class="box">
+                    <h2>Latest Activity</h2>
+                    Followers: <span id="followerCount">0</span>
+                    <p>Stay connected and watch <br> the numbers grow!</p>
+                </div>
+                <div class="weather-widget">
+                    <h3>Weather Update</h3>
+                    <div class="weather-content">
+                        <div class="weather-icon">☀️</div>
+                        <div class="weather-info">
+                            <div class="temp">24°C</div>
+                            <div class="location">Kigali</div>
+                        </div>
+                    </div>
+                    <div class="weather-forecast">
+                        <div class="forecast-day">
+                            <div>Tue</div>
+                            <div>🌤️</div>
+                            <div>23°</div>
+                        </div>
+                        <div class="forecast-day">
+                            <div>Wed</div>
+                            <div>⛅</div>
+                            <div>22°</div>
+                        </div>
+                        <div class="forecast-day">
+                            <div>Thu</div>
+                            <div>🌦️</div>
+                            <div>20°</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Investment Opportunities Section -->
+        <section class="invest-section">
+            <div class="section-header">
+                <h3>Invest</h3>
+            </div>
+            <div class="invest-grid">
+                <div class="invest-card">
+                    <div class="invest-header">
+                        <img src="images/rwanda.png" alt="Rwanda">
+                        <span class="tdheader">Invest In Rwanda</span>
+                    </div>
+                    </table>
+                    <ul class="invest-links">
+                        <li><a href="">Why invest in Rwanda</a></li>
+                        <li><a href="">Doing business here</a></li>
+                    </ul>
+                </div>
+                <div class="invest-card">
+                    <div class="invest-header">
+                        <img src="images/stock.png" alt="Rwanda">
+                        <span class="tdheader">Investment Opportunities</span>
+                    </div>
+                    <ul class="invest-links">
+                        <li><a href="">Manufacturing</a></li>
+                        <li><a href="">Agro-Processing</a></li>
+                        <li><a href="">Tourism</a></li>
+                        <li><a href="">Real estate and construction</a></li>
+                        <li><a href="">ICT</a></li>
+                        <li><a href="">Financial services</a></li>
+                        <li><a href="">Mining</a></li>
+                        <li><a href="">Infrastructure</a></li>
+                        <li><a href="">Energy</a></li>
+                        <li><a href="">Health Services</a></li>
+                        <li><a href="">Education</a></li>
+                    </ul>
+                </div>
+                <div class="invest-card">
+                    <div class="invest-header">
+                        <img src="images/hands.png" alt="Rwanda">
+                        <span class="tdheader">Get Started</span>
+                    </div>
+                    <ul class="invest-links">
+                        <li><a href="">Entering Rwanda</a></li>
+                        <li><a href="">Starting a business</a></li>
+                        <li><a href="">Hiring in Rwanda</a></li>
+                        <li><a href="">Paying taxes</a></li>
+                        <li><a href="">Visa information</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Global Business Banner -->
+        <div class="global-business">
+            <div class="global-content">
+                <h1>Take Your Business Global</h1>
+                <p>Rwanda Development Board provides trusted market intelligence, practical advice and business tools to help Rwanda companies expand in global markets.</p>
+                <div class="business-links">
+                    <div class="business-link">
+                        <img src="images/docs.png" alt="Docs">
+                        <span>Export Guides</span>
+                    </div>
+                    <div class="business-link">
+                        <img src="images/earth.png" alt="Earth">
+                        <span>Products directory</span>
+                    </div>
+                    <div class="business-link">
+                        <img src="images/chat.png" alt="Chat">
+                        <span>Services directory</span>
+                    </div>
+                    <div class="business-link">
+                        <img src="images/calendar.png" alt="Calendar">
+                        <span>Events</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Tourism Section -->
+        <section class="tourism-section">
+            <div class="section-header tourism-header">
+                <h4>Visit Rwanda</h4>
+            </div>
+            <div class="tourism-grid">
+                <div class="tourism-card">
+                    <img src="images/gorilla.jpg" alt="Gorilla">
+                    <h4>Volcanoes National Park</h4>
+                    <p>The "Parc National de Volcans" (or PNV as it's known by locals) lies along the Virunga Mountains, with 8 ancient volcanoes, which are shared by Rwanda, Uganda and the</p>
+                    <button>More Info</button>
+                </div>
+                <div class="tourism-card">
+                    <img src="images/canopy.jpg" alt="Canopy">
+                    <h4>Nyungwe National Park</h4>
+                    <p>Covering over 1000 square kilomtres, Nyungwe is surely one of the world's most beautiful and pristine mountain rainforests. It's believed to be one of Africa's oldest forests, staying green</p>
+                    <button>More Info</button>
+                </div>
+                <div class="tourism-card">
+                    <img src="images/akagera.jpg" alt="Akagera">
+                    <h4>Akagera National Park</h4>
+                    <p>Akagera National Park is located in the north east of Rwanda along the border with Tanzania. Although founded in 1934, much of the park was re-allocated as farms and in 1997</p>
+                    <button>More Info</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer>
+            <div class="footer-column">
+                <h4>Contact Us</h4>
+                <address>
+                    Rwanda Development Board<br>
+                    <img src="images/address.png" class="footer-icon">KN 5 Rd, KG 9 Ave<br>
+                    <img src="images/tel.png" class="footer-icon">Tel: 1415<br>
+                    <img src="images/tel.png" class="footer-icon">Tel(international):(+250) 727775170<br>
+                    <img src="images/email.png" class="footer-icon">E-mail:info@rdb.rw<br>
+                </address>
+            </div>
+            <div class="footer-column">
+                <h4>Investment Opportunities</h4>
+                <ul>
+                    <li><a href="">Manufacturing</a></li>
+                    <li><a href="">Agro-Processing</a></li>
+                    <li><a href="">Tourism</a></li>
+                    <li><a href="">Real Estate and construction</a></li>
+                    <li><a href="">ICT</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Mining</a></li>
+                    <li><a href="">Infrastructure</a></li>
+                    <li><a href="">Energy</a></li>
+                    <li><a href="">Health Services</a></li>
+                    <li><a href="">Education</a></li>
+                    <li><a href="">Global Business Service (GBS)</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Important Links</h4>
+                <ul>
+                    <li><a href="">Visit Rwanda</a></li>
+                    <li><a href="">Visit Nyungwe</a></li>
+                    <li><a href="">Business Procedures</a></li>
+                    <li><a href="">Government Portal</a></li>
+                    <li><a href="">Rwanda Directorate General of immigration and Emigration</a></li>
+                    <li><a href="">Ministry of trade and industry</a></li>
+                    <li><a href="">Rwanda Standard Board</a></li>
+                    <li><a href="">Water and Sanitation Corporation</a></li>
+                    <li><a href="">Rwanda Energy Group</a></li>
+                    <li><a href="">Rwanda Convention Bureau</a></li>
+                    <li><a href="">Rwanda Revenue Authority</a></li>
+                    <li><a href="">National Agricultural Export Development Board</a></li>
+                    <li><a href="">Rwandapedia</a></li>
+                    <li><a href="">RICTA-Be online by registering your .rw domain name</a></li>
+                    <li><a href="">Kigali International Financial Center</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Media Center</h4>
+                <ul>
+                    <li><a href="">News & Press Releases</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Photo Gallery</a></li>
+                    <li><a href="">Publications</a></li>
+                </ul>
+                <div class="quick-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="">RDB Mail Access</a></li>
+                        <li><a href="">CRM</a></li>
+                        <li><a href="">Document Tracking System</a></li>
+                        <li><a href="">Kurikirana Dossier yawe</a></li>
+                        <li><a href="">Rw-CSIRT</a></li>
+                        <li><a href="">Rwanda Public Service Employee Self-Service Portal</a></li>
+                        <li><a href="">Rwanda Public Service E-Recruitment Portal</a></li>
+                        <li><a href="">Digital certificate issuance Aplication(PKI)</a></li>
+                        <li><a href="">NEP M&E System</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
