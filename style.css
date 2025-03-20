@@ -627,11 +627,23 @@ body {
 /* ***********************************Tourism Section *********************************/
 .tourism-section {
     width: 100%;
-    padding: 40px 4%;
+    padding: 30px 4%;
 }
 
 .tourism-header {
     margin-bottom: 30px;
+    position: relative;
+    
+}
+.tourism-header::before {
+    content: "";
+    position: absolute;
+    top: 52%;
+    left: 15%;
+    width: 83%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 0;
 }
 
 .tourism-header h4 {
@@ -653,6 +665,9 @@ body {
     overflow: hidden;
     background-color: #fafafa;
     transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .tourism-card:hover {
@@ -680,7 +695,6 @@ body {
     text-align: center;
     font-size: 0.9rem;
     padding: 15px;
-    height: 120px;
     overflow: hidden;
 }
 
@@ -805,6 +819,7 @@ address {
     
     .menu-toggle:checked ~ nav {
         max-height: 500px;
+        
     }
     
     .hero-content h2 {
