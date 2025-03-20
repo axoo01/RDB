@@ -640,16 +640,17 @@ body {
 }
 
 .tourism-header {
-    margin-bottom: 30px;
     position: relative;
+    margin-bottom: 30px;
+    
     
 }
 .tourism-header::before {
     content: "";
     position: absolute;
     top: 52%;
-    left: 15%;
-    width: 83%;
+    left: 0;
+    width: 100%;
     height: 1px;
     background-color: rgba(0, 0, 0, 0.1);
     z-index: 0;
@@ -658,6 +659,11 @@ body {
 .tourism-header h4 {
     color: #fcc428;
     font-size: 1.8rem;
+    background-color: white;
+    display: inline-block;
+    padding-right: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .tourism-grid {
