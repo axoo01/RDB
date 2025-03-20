@@ -48,6 +48,7 @@ body {
     display: flex;
     align-items: center;
     padding: 0;
+    
 }
 
 .social-icons img {
@@ -58,7 +59,7 @@ body {
 }
 
 .social-icons img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .top-links {
@@ -73,7 +74,7 @@ body {
     text-decoration: none;
     color: #ffffff;
     padding: 5px;
-    transition: color 0.7s;
+    transition: all 1s;
     font-size: 0.9rem;
     letter-spacing: 0.5px;
     
