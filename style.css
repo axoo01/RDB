@@ -95,7 +95,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 11%;
+    padding: 10px 10.5%;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: sticky;
 	z-index: 999;
@@ -167,6 +167,11 @@ body {
     margin-bottom: 5%;
     word-spacing: 7px;
     letter-spacing: 2px;
+    transition: all 0.5s ease;
+}
+.hero-content:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
 }
 
 .hero-content h2 {
@@ -174,6 +179,10 @@ body {
     font-size: 2.5rem;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+}
+.hero-content a{
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
 }
 
 /****************************************************** Section Title ********************************/
@@ -819,7 +828,7 @@ address {
     
     .menu-toggle:checked ~ nav {
         max-height: 500px;
-        
+
     }
     
     .hero-content h2 {
